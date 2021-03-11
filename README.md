@@ -5,7 +5,7 @@ To access the site on your machine after cloning it you need to set up a virtual
 
 If you accessed the site on your local host you'll find that the api is browesable so you'll be able to understand the functionality of the api. But any way here is a documentation of the entire api 
 
-##Product List and Create
+## Product List and Create
 
 accessing localhost/products will give you a list of all the products currently registered on the site the list will look like 
 
@@ -16,7 +16,7 @@ accessing localhost/products will give you a list of all the products currently 
           "id": 1,
          "title": "any title",
          "description": "some description",
-         "image": url for the image,
+         "image": "url for the image",
          "price": 300,
          "quantity": 150,
          "seller": "some-user",
@@ -48,7 +48,7 @@ after registration you will request your token via this endpoint localhost/api-t
       "id": 1,
       "title": "some title",
       "description": "some description",
-      "image": some image url,
+      "image": "some image url",
       "price": 34,
       "quantity": 3,
       "seller": "some-user",
@@ -133,7 +133,7 @@ making a GET request to this url localhost/states/buyer wiil give you a list of 
            "order": "7aga",
            "owner": "mohamed",
            "buyer": "moh",
-           "state": (anywhere between 1: being packaged , 2:on the way , 3:delivered)
+           "state": "(anywhere between 1: being packaged , 2:on the way , 3:delivered)"
        }
    ]
 ```
